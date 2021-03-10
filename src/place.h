@@ -1,0 +1,14 @@
+void addEndPlaceList(Place* actuel, Place* p);
+Place* newPlace(int x, int y);
+list_p* init_placeList(list_p* list);
+Place* init_place(Place* p);
+void fillPlaceList(list_p* l_car, list_p* l_truck, list_p* l_moto);
+Place* findPlace(Vehicule* v, list_p* p);
+Place* getPlaceByIndex(Place* p, int x, int acc);
+int getSizeOf(Place* p);
+void showPlace(Place* p);
+int deleteFromPlaceList(Place* current, Place *p);
+void deleteFirstFromPlaceList(list_p *l, Place *p);
+int deleteLastFromPlaceList(Place* current, Place* p);
+void deletePlace(list_p *l, Place *p);
+void colorPlace(int x, int y, char parkingArray[x][y], char vehiculeArray[x][y]);

@@ -1,0 +1,11 @@
+int randInt(int min, int max);
+char randType();
+char randDirection();
+void newRandVehicle(list* l, int x, int y, char vehiculeBoard[x][y],int step, list_p* l_c, list_p* l_t, list_p* l_m);
+int genrandPosXcar();
+int genrandPosYcar();
+int genrandPosXtruck(Vehicule *v);
+int genrandPosYtruck();
+int genrandTemp(char type);
+int genrandPosYmoto();
+int genrandPosXmoto();
