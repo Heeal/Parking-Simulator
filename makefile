@@ -11,4 +11,4 @@ random.c:
 place.c:
 	gcc -Wall -c src/place.c -o bin/place.o
 player_controls.c:
-	gcc -Wall -c src/player_controls.c -o bin/player_constrols.o
+	gcc -Wall -c src/player_controls.c -o bin/player_controls.o
