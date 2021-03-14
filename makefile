@@ -1,5 +1,5 @@
 all: random.c console.c parking.c vehicle.c place.c player_controls.c
-	gcc -Wall src/main.c -o bin/EXEC bin/parking.o bin/console.o bin/vehicle.o bin/random.o bin/place.o bin/player_constrols.o
+	gcc -Wall src/main.c -o bin/EXEC bin/parking.o bin/console.o bin/vehicle.o bin/random.o bin/place.o bin/player_controls.o
 parking.c: 
 	gcc -Wall -c src/parking.c -o bin/parking.o
 console.c:
